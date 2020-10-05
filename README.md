@@ -1,4 +1,3 @@
-# ASW-for-optimizers
+# IVT
 
-this repository will enclude the pytorch implenentaion and low level numpy implimentation of Average Starting Weights which create starting weights based on the input and output
-trainset of a new model.
+this repository will enclude the pytorch implenentaion of IVT. What IVT does is it takes the importance values of any given input position in the new dataset, scales it and then uses it to shift the weights from one dataset directly onto another.
